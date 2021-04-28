@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EEE37022639B6AD0010C74A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE37012639B6AD0010C74A /* AppDelegate.swift */; };
+		5EEE37042639B6AD0010C74A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE37032639B6AD0010C74A /* SceneDelegate.swift */; };
+		5EEE37062639B6AD0010C74A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE37052639B6AD0010C74A /* ViewController.swift */; };
+		5EEE37092639B6AD0010C74A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEE37072639B6AD0010C74A /* Main.storyboard */; };
+		5EEE370B2639B6AF0010C74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEE370A2639B6AF0010C74A /* Assets.xcassets */; };
+		5EEE370E2639B6AF0010C74A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEE370C2639B6AF0010C74A /* LaunchScreen.storyboard */; };
+		5EEE37192639B6AF0010C74A /* VSCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE37182639B6AF0010C74A /* VSCodeTests.swift */; };
+		5EEE37242639B6AF0010C74A /* VSCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE37232639B6AF0010C74A /* VSCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EEE37152639B6AF0010C74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEE36F62639B6AD0010C74A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEE36FD2639B6AD0010C74A;
+			remoteInfo = VSCode;
+		};
+		5EEE37202639B6AF0010C74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEE36F62639B6AD0010C74A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEE36FD2639B6AD0010C74A;
+			remoteInfo = VSCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EEE36FE2639B6AD0010C74A /* VSCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEE37012639B6AD0010C74A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EEE37032639B6AD0010C74A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EEE37052639B6AD0010C74A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EEE37082639B6AD0010C74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EEE370A2639B6AF0010C74A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EEE370D2639B6AF0010C74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EEE370F2639B6AF0010C74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEE37142639B6AF0010C74A /* VSCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEE37182639B6AF0010C74A /* VSCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeTests.swift; sourceTree = "<group>"; };
+		5EEE371A2639B6AF0010C74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEE371F2639B6AF0010C74A /* VSCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEE37232639B6AF0010C74A /* VSCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeUITests.swift; sourceTree = "<group>"; };
+		5EEE37252639B6AF0010C74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEE37342639B7A70010C74A /* VSCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSCode.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EEE36FB2639B6AD0010C74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEE37112639B6AF0010C74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEE371C2639B6AF0010C74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEE36F52639B6AD0010C74A = {
+			isa = PBXGroup;
+			children = (
+				5EEE37002639B6AD0010C74A /* VSCode */,
+				5EEE37172639B6AF0010C74A /* VSCodeTests */,
+				5EEE37222639B6AF0010C74A /* VSCodeUITests */,
+				5EEE36FF2639B6AD0010C74A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EEE36FF2639B6AD0010C74A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE36FE2639B6AD0010C74A /* VSCode.app */,
+				5EEE37142639B6AF0010C74A /* VSCodeTests.xctest */,
+				5EEE371F2639B6AF0010C74A /* VSCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EEE37002639B6AD0010C74A /* VSCode */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE37342639B7A70010C74A /* VSCode.entitlements */,
+				5EEE37012639B6AD0010C74A /* AppDelegate.swift */,
+				5EEE37032639B6AD0010C74A /* SceneDelegate.swift */,
+				5EEE37052639B6AD0010C74A /* ViewController.swift */,
+				5EEE37072639B6AD0010C74A /* Main.storyboard */,
+				5EEE370A2639B6AF0010C74A /* Assets.xcassets */,
+				5EEE370C2639B6AF0010C74A /* LaunchScreen.storyboard */,
+				5EEE370F2639B6AF0010C74A /* Info.plist */,
+			);
+			path = VSCode;
+			sourceTree = "<group>";
+		};
+		5EEE37172639B6AF0010C74A /* VSCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE37182639B6AF0010C74A /* VSCodeTests.swift */,
+				5EEE371A2639B6AF0010C74A /* Info.plist */,
+			);
+			path = VSCodeTests;
+			sourceTree = "<group>";
+		};
+		5EEE37222639B6AF0010C74A /* VSCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE37232639B6AF0010C74A /* VSCodeUITests.swift */,
+				5EEE37252639B6AF0010C74A /* Info.plist */,
+			);
+			path = VSCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EEE36FD2639B6AD0010C74A /* VSCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEE37282639B6AF0010C74A /* Build configuration list for PBXNativeTarget "VSCode" */;
+			buildPhases = (
+				5EEE36FA2639B6AD0010C74A /* Sources */,
+				5EEE36FB2639B6AD0010C74A /* Frameworks */,
+				5EEE36FC2639B6AD0010C74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSCode;
+			productName = VSCode;
+			productReference = 5EEE36FE2639B6AD0010C74A /* VSCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EEE37132639B6AF0010C74A /* VSCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEE372B2639B6AF0010C74A /* Build configuration list for PBXNativeTarget "VSCodeTests" */;
+			buildPhases = (
+				5EEE37102639B6AF0010C74A /* Sources */,
+				5EEE37112639B6AF0010C74A /* Frameworks */,
+				5EEE37122639B6AF0010C74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEE37162639B6AF0010C74A /* PBXTargetDependency */,
+			);
+			name = VSCodeTests;
+			productName = VSCodeTests;
+			productReference = 5EEE37142639B6AF0010C74A /* VSCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EEE371E2639B6AF0010C74A /* VSCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEE372E2639B6AF0010C74A /* Build configuration list for PBXNativeTarget "VSCodeUITests" */;
+			buildPhases = (
+				5EEE371B2639B6AF0010C74A /* Sources */,
+				5EEE371C2639B6AF0010C74A /* Frameworks */,
+				5EEE371D2639B6AF0010C74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEE37212639B6AF0010C74A /* PBXTargetDependency */,
+			);
+			name = VSCodeUITests;
+			productName = VSCodeUITests;
+			productReference = 5EEE371F2639B6AF0010C74A /* VSCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EEE36F62639B6AD0010C74A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5EEE36FD2639B6AD0010C74A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5EEE37132639B6AF0010C74A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5EEE36FD2639B6AD0010C74A;
+					};
+					5EEE371E2639B6AF0010C74A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5EEE36FD2639B6AD0010C74A;
+					};
+				};
+			};
+			buildConfigurationList = 5EEE36F92639B6AD0010C74A /* Build configuration list for PBXProject "VSCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EEE36F52639B6AD0010C74A;
+			productRefGroup = 5EEE36FF2639B6AD0010C74A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EEE36FD2639B6AD0010C74A /* VSCode */,
+				5EEE37132639B6AF0010C74A /* VSCodeTests */,
+				5EEE371E2639B6AF0010C74A /* VSCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EEE36FC2639B6AD0010C74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE370E2639B6AF0010C74A /* LaunchScreen.storyboard in Resources */,
+				5EEE370B2639B6AF0010C74A /* Assets.xcassets in Resources */,
+				5EEE37092639B6AD0010C74A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEE37122639B6AF0010C74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEE371D2639B6AF0010C74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EEE36FA2639B6AD0010C74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE37062639B6AD0010C74A /* ViewController.swift in Sources */,
+				5EEE37022639B6AD0010C74A /* AppDelegate.swift in Sources */,
+				5EEE37042639B6AD0010C74A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEE37102639B6AF0010C74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE37192639B6AF0010C74A /* VSCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEE371B2639B6AF0010C74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE37242639B6AF0010C74A /* VSCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EEE37162639B6AF0010C74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEE36FD2639B6AD0010C74A /* VSCode */;
+			targetProxy = 5EEE37152639B6AF0010C74A /* PBXContainerItemProxy */;
+		};
+		5EEE37212639B6AF0010C74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEE36FD2639B6AD0010C74A /* VSCode */;
+			targetProxy = 5EEE37202639B6AF0010C74A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EEE37072639B6AD0010C74A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EEE37082639B6AD0010C74A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EEE370C2639B6AF0010C74A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EEE370D2639B6AF0010C74A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EEE37262639B6AF0010C74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EEE37272639B6AF0010C74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EEE37292639B6AF0010C74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VSCode/VSCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 727X248336;
+				INFOPLIST_FILE = VSCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,6";
+			};
+			name = Debug;
+		};
+		5EEE372A2639B6AF0010C74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VSCode/VSCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 727X248336;
+				INFOPLIST_FILE = VSCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,6";
+			};
+			name = Release;
+		};
+		5EEE372C2639B6AF0010C74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 727X248336;
+				INFOPLIST_FILE = VSCodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSCode.app/VSCode";
+			};
+			name = Debug;
+		};
+		5EEE372D2639B6AF0010C74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 727X248336;
+				INFOPLIST_FILE = VSCodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSCode.app/VSCode";
+			};
+			name = Release;
+		};
+		5EEE372F2639B6AF0010C74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 727X248336;
+				INFOPLIST_FILE = VSCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VSCode;
+			};
+			name = Debug;
+		};
+		5EEE37302639B6AF0010C74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 727X248336;
+				INFOPLIST_FILE = VSCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VSCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EEE36F92639B6AD0010C74A /* Build configuration list for PBXProject "VSCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEE37262639B6AF0010C74A /* Debug */,
+				5EEE37272639B6AF0010C74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEE37282639B6AF0010C74A /* Build configuration list for PBXNativeTarget "VSCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEE37292639B6AF0010C74A /* Debug */,
+				5EEE372A2639B6AF0010C74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEE372B2639B6AF0010C74A /* Build configuration list for PBXNativeTarget "VSCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEE372C2639B6AF0010C74A /* Debug */,
+				5EEE372D2639B6AF0010C74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEE372E2639B6AF0010C74A /* Build configuration list for PBXNativeTarget "VSCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEE372F2639B6AF0010C74A /* Debug */,
+				5EEE37302639B6AF0010C74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EEE36F62639B6AD0010C74A /* Project object */;
+}
